@@ -1,0 +1,130 @@
+.styled-table {
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    max-width: 1000px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-top: 10px;
+}
+
+.styled-table thead tr {
+    background-color: #F3B400;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    background-color: #ffffff;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f2deac;
+}
+
+.style-table tbody tr:last-of-type {
+    border-bottom: 2px solid rgb(86, 155, 245);
+}
+
+.btn {
+    border: none;
+    color: rgb(236, 7, 7);
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn-edit {
+    color: #C72B00;
+    background-color: none;
+}
+
+.btn-delete {
+    color: #ff0000;
+    background-color: none;
+}
+
+.btn-view {
+    color: black;
+    background-color: none;
+}
+
+.btn-contact {
+    background-color: #0bac2e;
+    height: 40px;
+    color: black;
+    position: relative;
+    right: -630px;
+
+}
+
+.active {
+    background-color: #F3B400;
+    color: rgb(0, 0, 0);
+
+}
+
+.pagination-button {
+    border-radius: 4px;
+    /* add border radius */
+
+    border: none;
+    /* remove border */
+    padding: 6px 12px;
+    /* add padding */
+}
+
+.btnn {
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.search-data {
+    position: relative;
+    right: 333px;
+    height: 40px;
+}
+
+.btn-pagination {
+    color: #F3B400;
+}
+
+.pagination-info {
+    color: white;
+}
+
+.top-btn-positon{
+   position: absolute;;
+    left: 100px;
+  }
+  
+  .top-btn-style{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    background-color: #fff;
+    cursor: pointer;
+    
+  }
+  
+  .top-btn-style:hover{
+    animation: none;
+    background-color: #333;
+    color:#fff;
+    border: 2px solid #fff;
+    cursor: pointer;
+  }
